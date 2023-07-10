@@ -4,6 +4,8 @@
 
 int main()
 {
-	Chess::ChessBoard board("Hello World!");
+	Chess::ChessBoard board;
+
+	board.PrintBoard();
 
 }
